@@ -1,49 +1,51 @@
 .mvpb-root {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
 }
+
 .mvpb-product-wrapper {
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .mvpb-product-img-wrapper {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
+
 .mvpb-product-img-wrapper::before {
-  content: "";
-  display: block;
-  padding-top: 100%;
+    content: "";
+    display: block;
+    padding-top: 100%;
 }
 
 .mvpb-product-img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .mvpb-slider-wrapper {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .mvpv-product-info {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 most-viewed-products #mvpb-product-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
